@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/addProduct.css"/>
+		<style type="text/css">
+			body{
+				width: 100%;
+				height: 100%;
+				background: url(../images/body_bj.jpg);
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+			<a href="#">ECSHOP管理中心</a>
+			<span>&nbsp;- 添加新商品</span>
+			<a href="#"></a>
+			<a href="#" class="add">商品列表</a>
+		</h1>
+		<div id="box">
+			<ul>
+				<li><a href="#">通用信息</a></li>
+				<li><a href="#">详细描述</a></li>
+				<li><a href="#">其他信息</a></li>
+				<li><a href="#">商品属性</a></li>
+				<li><a href="#">商品相册</a></li>
+				<li><a href="#">关联商品</a></li>
+				<li><a href="#">配件</a></li>
+				<li><a href="#">关联文章</a></li>
+			</ul>
+			<div id="main">
+				<div class="main-con1 subPage">
+					<form action="#">
+						<p><label for="productName">商品名称</label><input type="text" id="productName" class="pName" /><input type="color" class="colors"/><select name=""><option>字体样式</option></select></p>
+						<p><label for="productNum">商品货号</label><input type="text" id="productNum" class="pNum" /><span class="txtStyle2">如果您不能输入商品货号，会自动产生一个唯一的商品货号</span></p>
+						<p><label for="productClassify">商品分类</label><select name="leibie"><option value="">请选择...</option></select><a href="#" class="btn btn1">添加分类</a></p>
+						<p><label for="extendClassify">扩展分类</label><a href="#" class="btn btn2">添加</a></p>
+						<p><label for="productBrand">商品品牌</label><select name="leibie"><option value="">请选择...</option></select><a href="#" class="btn btn1">添加品牌</a></p>
+						<p><label for="productPrice">本店售价</label><input type="text" id="productPrice" class="pPrice" /><a href="#" class="marketPrice">按市场价计算</a></p>
+						<p><label for="vipPrice">会员价格</label><span class="txt">注册用户</span><input type="text" class="small"/><span class="txt">代销用户</span><input type="text" class="small"/><span class="txt">vip</span><input type="text" class="small"/>
+							<span class="txtStyle1">会员价格为-1时表示会员价格按会员等级折扣率计算。你也可以为每个等级指定一个固定价格</span>
+						</p>
+						<p><label for="discountsPrice">商品优惠价格</label><a class="add">+</span><span class="txt discount">优惠数量</span><input type="text" class="small"/><span class="txt disPrice">优惠价格</span><input type="text" class="small"/>
+							<span class="txtStyle1">购买数量达到优惠数量时享受的优惠价格</span>
+						</p>
+						<p><label for="productPrice">市场售价</label><input type="text" id="productPrice"/><a href="#" class="marketPrice">按市场价计算</a></p>
+						<p><label for="productNum">虚拟销量</label><input type="text" id="productNum" class="virtualSale" /></p>
+						<p><label for="productNum">赠送消费积分数</label><input type="text" id="productNum"/><span class="txtStyle2">购买该商品时赠送消费积分数,-1表示按商品价格赠送</span></p>
+						<p><label for="productNum">赠送等级积分数</label><input type="text" id="productNum"/><span class="txtStyle2">购买该商品时赠送等级积分数,-1表示按商品价格赠送</span></p>
+						<p>
+							<label for="productNum">促销价</label>
+							<input type="checkbox" class="choise"/>
+							<input type="text" id="productNum"/>
+						</p>
+						<p><label for="productClassify">促销日期</label><input type="text"/><a href="#" class="btn">选择</a> - <input type="text"/><a href="#" class="btn">选择</a></p>
+						<p><label for="productClassify">上传商品图片</label><input type="file"/><input type="url" placeholder="商品图片外部url"/></p>
+						<p><label for="productClassify">上传商品缩略图片</label><input type="file"/><input type="url" placeholder="商品缩略图片外部url"/><input type="checkbox"/><span class="txtStyle2">自动生成商品缩略图</span></p>
+						<p><a href="#" class="btn subSuer">确定</a><a href="#" class="btn">重置</a></p>
+					</form>
+				</div>
+				<div class="main-con2 subPage">
+					<textarea></textarea>
+					<p><a href="#" class="btn_2">确定</a><a href="#" class="btn_2">重置</a></p>
+				</div>
+				<div class="main_con3 subPage">
+					<form action="#">
+						<div class="otherInfo">
+							<div>
+								<p>商品重量：</p>
+								<p>
+									<input type="text" />
+									<select name="">
+										<option value="">千克</option>
+										<option value="">克</option>
+									</select>
+								</p>
+							</div>
+							<div>
+								<p>商品库存数量：</p>
+								<!--<p><a href="javascript:;" class="help"></a></p>-->
+								<p><input type="text" value="1" class="inventory" /></p>
+							</div>
+							<div>
+								<p>库存警告数量：</p>
+								<p><input type="text" value="1" /></p>
+							</div>
+							<div>
+								<p>加入推荐：</p>
+								<p>
+									<input type="checkbox" class="jcheck" />&nbsp;精品&nbsp;
+									<input type="checkbox" class="xcheck" />&nbsp;新品&nbsp;
+									<input type="checkbox" class="rcheck" />&nbsp;热销
+								</p>
+							</div>
+							<div>
+								<p>上架：</p>
+								<p>
+									<input type="checkbox" class="scheck" />&nbsp;打勾表示允许销售，否则不允许销售
+								</p>
+							</div>
+							<div>
+								<p>能否为普通商品销售：</p>
+								<p>
+									<input type="checkbox"/>&nbsp;打勾表示能作为普通商品销售，否则只能作为配件或赠品销售
+								</p>
+							</div>
+							<div>
+								<p>能否为免运费商品：</p>
+								<p>
+									<input type="checkbox"/>&nbsp;打勾表示此商品不会产生运费花销，否则按照正常运费计算
+								</p>
+							</div>
+							<div>
+								<p>商品关键词：</p>
+								<p>
+									<input type="text"/>&nbsp;用空格分隔
+								</p>
+							</div> 
+							<div>
+								<p>商品简单描述：</p>
+								<p>
+									<textarea name="" rows="4" cols="30"></textarea>
+								</p>
+							</div>
+							<div>
+								<p>商家备注：</p>
+								<p>
+									<textarea name="" rows="4" cols="30"></textarea>
+									<br /><span>仅供商家自己看的信息</span>
+								</p>
+							</div>
+						</div>
+						<p><a href="#" class="redBtn1">确定</a><a href="#" class="redBtn">重置</a></p>
+					</form> 
+				</div>
+				<div class="main_con4 subPage">
+					<p>
+						<label for="style">商品类型</label>
+						<select name="style" value="请选择...">
+							<option>请选择商品类型</option>
+						</select>
+						<span>请选择商品类型进而完善该商品属性</span>
+						<p><a href="#" class="redBtn1">确定</a><a href="#" class="redBtn">重置</a></p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<p>
+				<span>共执行n个查询，用时0.022495秒，Gzip已禁用，内存占用3.545MB</span>
+				<span>版权所有 &copy; 2005-2018 上海商派软件有限公司，并保留所有权利</span>
+			</p>
+		</div>
+	</body>
+	<script src="../javascripts/jquery-1.9.1.js"></script>
+	<script src="../javascripts/addProduct.js"></script>
+</html>  

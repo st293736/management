@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				width: 100%;
+				height: 100%;
+				background: url(../images/body_bj.jpg);
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/productList.css"/>
+	</head>
+	<body>
+		<h1>
+			<a href="#">ECSHOP管理中心</a>
+			<span>&nbsp;- 商品列表</span>
+			<a href="#"></a>
+			<a href="addProduct.ejs" class="add" target="box">添加新商品</a>
+		</h1>
+		<div>
+			<select name="choise" value="所有分类">
+				<option>所有分类</option>
+			</select>
+			<select name="choise2" value="所有品牌">
+				<option value="">所有品牌</option>
+			</select>
+			<select name="choise3" value="全部">
+				<option value="">全部</option>
+			</select>
+			<select name="choise4">
+				<option value="">全部</option>
+			</select>
+			<span>关键字</span>
+			<input type="text" id="part" />
+			<a href="#" class="btn">搜索</a>
+		</div>
+		<div class="tables">
+			<table border="1" cellspacing="0" class="datas">
+				<tr class="event">
+					<td><input type="checkbox" id="productId"/>编号</td>
+					<td>商品名称</td>
+					<td>货号</td>
+					<td>价格</td>
+					<td>上架</td>
+					<td>精品</td>
+					<td>新品</td>
+					<td>热销</td>
+					<td>推荐排序</td>
+					<td>库存</td>
+					<td>虚拟销量</td>
+					<td>操作</td>
+				</tr>
+				
+			</table>
+			<div class="bottom2">
+				<p>
+					<a href="#" class="firstPage">第一页</a>
+					<a href="#" class="up">上一页</a>
+					<a href="#" class="down">下一页</a>
+					<a href="#" class="end">最末页</a>
+					<select name="choise2" value="" class="pageNum">
+						<option value="1">1</option> 
+					</select>
+				</p>
+				<p>总计<span class="total">&nbsp;0&nbsp;</span>个记录分为<span class="page">&nbsp;0&nbsp;</span>页当前第<span class="rank">&nbsp;1&nbsp;</span>页，每页<input type="text" class="num" value="5" /></p>
+			</div>
+		</div>
+		<div class="choise_bot">
+			<select name="" class="selects">
+				<option value="">请选择...</option>
+			</select>
+			<a href="#" class="sure">确定</a>
+		</div>
+		<div class="bottom">
+			<p>
+				<span>共执行n个查询，用时0.022495秒，Gzip已禁用，内存占用3.545MB</span>
+				<span>版权所有 &copy; 2005-2018 上海商派软件有限公司，并保留所有权利</span>
+			</p>
+		</div>
+	</body>
+	<script src="../javascripts/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="../javascripts/productList.js"></script>
+</html>

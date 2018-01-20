@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../images/body_bj.jpg);
+}
+body h1 {
+  width: 1042px;
+  height: 38px;
+  border-bottom: 1px solid #cccccc;
+  padding-left: 11px;
+}
+body h1 a {
+  display: inline-block;
+  height: 100%;
+  color: #333333;
+  line-height: 38px;
+  font-size: 18px;
+  float: left;
+}
+body p {
+  width: 1042px;
+  height: 39px;
+  border-bottom: 1px solid #333333;
+  line-height: 39px;
+  padding-left: 11px;
+}
+body p span {
+  color: #cf0000;
+  font-size: 14px;
+}
+body p a {
+  color: #335b64;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=subIndex1.css.map */

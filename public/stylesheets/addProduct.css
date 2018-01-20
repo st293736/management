@@ -1,0 +1,371 @@
+h1 {
+  width: 1041px;
+  height: 38px;
+  border-bottom: 1px solid #cccccc;
+  padding-left: 11px;
+  margin-bottom: 10px;
+}
+h1 > a:nth-of-type(1) {
+  display: inline-block;
+  height: 100%;
+  color: #333333;
+  line-height: 38px;
+  font-size: 18px;
+  float: left;
+}
+h1 > span {
+  display: inline-block;
+  height: 100%;
+  color: #4c4c4c;
+  font-size: 18px;
+  line-height: 38px;
+  float: left;
+  margin-right: 15px;
+}
+h1 > a:nth-of-type(2) {
+  display: inline-block;
+  width: 110px;
+  height: 26px;
+  float: left;
+  background: url(../images/jnsy.png) no-repeat;
+  margin-top: 9px;
+}
+h1 > a:nth-of-type(3) {
+  display: inline-block;
+  width: 98px;
+  height: 26px;
+  border-radius: 3px;
+  background: #c43926;
+  color: white;
+  font-size: 14px;
+  float: right;
+  margin-top: 8px;
+  text-align: center;
+  line-height: 26px;
+}
+
+#box {
+  width: 1051px;
+  border: 1px solid #d7d7d7;
+}
+#box ul {
+  width: 100%;
+  height: 39px;
+  padding-top: 3px;
+}
+#box ul li {
+  width: 88px;
+  height: 39px;
+  float: left;
+  background: #efefef;
+}
+#box ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 39px;
+  color: #787878;
+  font-size: 14px;
+}
+#box ul li:nth-of-type(1) {
+  margin-left: 11px;
+  background: white;
+}
+#box ul li:nth-of-type(1) > a {
+  color: #192e32;
+  font-size: 12px;
+  font-weight: bold;
+}
+#box #main {
+  width: 100%;
+  background: white;
+  padding-top: 20px;
+}
+#box #main .main-con1 {
+  width: 623px;
+  margin: 0 auto;
+}
+#box #main .main-con1 label {
+  display: inline-block;
+  width: 105px;
+  color: #192e32;
+  font-size: 13px;
+  margin-right: 20px;
+  text-align: right;
+}
+#box #main .main-con1 input {
+  width: 132px;
+  height: 21px;
+  border: 1px solid #e3e9ef;
+}
+#box #main .main-con1 .txtStyle1 {
+  display: block;
+  color: #666666;
+  font-size: 12px;
+  margin: 8px 0 0 70px;
+}
+#box #main .main-con1 p {
+  margin-bottom: 17px;
+}
+#box #main .main-con1 .txt {
+  font-size: 12px;
+  color: black;
+}
+#box #main .main-con1 .small {
+  width: 62px;
+  height: 21px;
+  margin: 0 4px;
+}
+#box #main .main-con1 .marketPrice {
+  display: inline-block;
+  width: 90px;
+  height: 19px;
+  border: 1px solid #707070;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+  line-height: 19px;
+  margin-left: 5px;
+}
+#box #main .main-con1 .btn {
+  display: inline-block;
+  width: 59px;
+  height: 20px;
+  background: #ddeef2;
+  margin-left: 8px;
+  color: #335b64;
+  font-size: 13px;
+  border: 1px solid #278296;
+  text-align: center;
+  line-height: 20px;
+}
+#box #main .main-con1 .txtStyle2 {
+  color: #666666;
+  font-size: 13px;
+}
+#box #main .main-con1 p:nth-of-type(1) select {
+  width: 85px;
+  height: 19px;
+  border: 1px solid #e3e9ef;
+}
+#box #main .main-con1 p:nth-of-type(1) input:nth-of-type(2) {
+  width: 17px;
+  height: 14px;
+  margin: 0 6px;
+}
+#box #main .main-con1 p:nth-of-type(2) input {
+  width: 132px;
+  height: 21px;
+  margin-right: 20px;
+  border: 1px solid #e3e9ef;
+}
+#box #main .main-con1 select {
+  width: 132px;
+  height: 21px;
+  border: 1px solid #e3e9ef;
+}
+#box #main .main-con1 p:nth-of-type(4) a {
+  display: inline-block;
+  width: 54px;
+  height: 27px;
+  background: #ff3f3f;
+  border: none;
+  color: white;
+  line-height: 27px;
+  margin-left: none;
+}
+#box #main .main-con1 p:nth-of-type(13) input:nth-of-type(1) {
+  width: 20px;
+}
+#box #main .main-con1 p:nth-of-type(13) label {
+  display: inline-block;
+  width: 100px;
+  float: left;
+}
+#box #main .main-con1 p:nth-of-type(13) input:nth-of-type(2) {
+  width: 132px;
+  float: left;
+}
+#box #main .main-con1 p:nth-of-type(14) a {
+  display: inline-block;
+  width: 54px;
+  height: 27px;
+  background: #ff3f3f;
+  border: none;
+  color: white;
+  line-height: 27px;
+}
+#box #main .main-con1 p:nth-of-type(15) input:nth-of-type(1) {
+  margin-right: 10px;
+}
+#box #main .main-con1 p:nth-of-type(16) input:nth-of-type(1) {
+  margin-right: 10px;
+}
+#box #main .main-con1 p:nth-of-type(16) input:nth-of-type(3) {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+#box #main .main-con2 {
+  display: none;
+  width: 935px;
+  border: 1px solid #cccccc;
+  margin: 13px;
+}
+#box #main .main-con2 textarea {
+  width: 930px;
+  height: 295px;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+}
+#box #main .main-con2 p {
+  width: 537px;
+  height: 35px;
+  padding: 8px 0 0 398px;
+}
+#box #main .main-con2 p .btn_2 {
+  display: inline-block;
+  width: 54px;
+  height: 27px;
+  background: #ff3f3f;
+  border: none;
+  color: white;
+  line-height: 27px;
+  text-align: center;
+  margin: 0 4px;
+}
+#box #main .main_con3 {
+  display: none;
+}
+#box #main .main_con3 form div > p {
+  margin: 0;
+  display: inline-block;
+}
+#box #main .main_con3 form div > p input {
+  vertical-align: middle;
+  margin: 5px 0;
+  border: 1px solid #91C4D0;
+}
+#box #main .main_con3 form div > p span {
+  font: 12px Microsoft Yahei, "sans-serif", "Arial", "Verdana";
+  color: #666;
+}
+#box #main .main_con3 form div > p select {
+  vertical-align: middle;
+  margin: 5px 0;
+}
+#box #main .main_con3 form div > p a {
+  margin: 0 5px;
+  padding: 1px 5px;
+  border: 1px solid #91C4D0;
+  border-right: 2px solid #278296;
+  border-bottom: 2px solid #278296;
+  background: #DDEEF2;
+  text-decoration: none;
+  font-weight: 400;
+}
+#box #main .main_con3 form div > p a img {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+#box #main .main_con3 form div > p .help {
+  background: none;
+  border: none;
+  padding: 0;
+}
+#box #main .main_con3 form div > p .redBtn {
+  padding: 5px 15px 5px;
+  margin: 2px 2px;
+  border: none;
+  background: #ff3f3f;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 3px;
+}
+#box #main .main_con3 form div > p:nth-of-type(1) {
+  text-align: right;
+  vertical-align: top;
+  font-weight: bold;
+  padding: 5px 1em;
+  width: 30%;
+  line-height: 30px;
+}
+#box #main .main_con3 form div > p:nth-of-type(2) {
+  vertical-align: top;
+  padding: 5px 1em;
+  line-height: 30px;
+}
+#box #main .main_con3 form > p:nth-of-type(1) {
+  width: 557px;
+  height: 27px;
+  padding-left: 438px;
+}
+#box #main .main_con3 form > p:nth-of-type(1) a {
+  display: inline-block;
+  width: 54px;
+  height: 27px;
+  background: #ff3f3f;
+  font-size: 12px;
+  color: white;
+  float: left;
+  text-align: center;
+  line-height: 27px;
+  margin: 0 10px;
+}
+#box #main .main_con4 {
+  display: none;
+  width: 328px;
+  height: 102px;
+  margin: 0 auto;
+}
+#box #main .main_con4 p label {
+  font-size: 12px;
+  color: #192e32;
+  margin-right: 20px;
+}
+#box #main .main_con4 p span {
+  display: block;
+  font-size: 13px;
+  color: #666666;
+  margin-left: 75px;
+}
+#box #main .main_con4 p a {
+  display: inline-block;
+  width: 54px;
+  height: 27px;
+  background: #ff3f3f;
+  font-size: 12px;
+  color: white;
+  float: left;
+  text-align: center;
+  line-height: 27px;
+  margin: 13px 10px;
+}
+#box #main .main_con4 p a:nth-of-type(1) {
+  margin-left: 100px;
+}
+
+.bottom {
+  width: 1068px;
+  height: 64px;
+  background: #f3f3f3;
+  border: 1px solid #dddddd;
+}
+.bottom p {
+  width: 389px;
+  height: 49px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.bottom p span {
+  display: inline-block;
+  color: #9cacaf;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+/*# sourceMappingURL=addProduct.css.map */
