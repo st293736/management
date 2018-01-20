@@ -13,6 +13,8 @@ $(function(){
 			//当前显示出的在哪一页
 			$("tr:gt(0)").remove();
 			pageNums = 1;
+			$(".pageNum option").eq(0).attr("selected");
+			$(".pageNum option:gt(0)").attr("selected","");
 			ajax();
 		})
 		//末页的点击事件
@@ -32,7 +34,7 @@ $(function(){
 		})
 		//上一页的点击事件
 		$(".up").click(function(){
-			pageNums = parseInt($(".pageNum").val()) - 1;
+			pageNums = parseInt($(".rank").html()) - 1;
 			console.log(pageNums);
 			// console.log(parseInt($(".pageNum option:checked").text()) - 1);
 			/*var pagea = pageNums + 1
@@ -43,9 +45,10 @@ $(function(){
 			}*/
 			/*$(".pageNum option").eq(pageNums).removeAttr("selected");
 			$(".pageNum option").eq(pageNums-1).siblings().attr("selected",true);*/
-			$(".pageNum option:selected").removeAttr("selected");
-			$(".pageNum option:selected").prev().attr("selected","selected");
+			$(".pageNum option").eq(pageNums - 1).attr("selected","selected");
+			$(".pageNum option").eq(pageNums).attr("selected","");
 			$("tr:gt(0)").remove();
+			$(".rank").html(pageNum);
 			ajax();
 		})
 		//下一页点击事件
@@ -58,6 +61,7 @@ $(function(){
 			$(".pageNum option:checked").attr("selected","selected");*/
 			// console.log(pageNums);
 			$(".pageNum option").eq(pageNums - 1 ).siblings().attr("selected",false);
+			$(".rank").html(pageNum);
 			ajax();	
 		})
 		//关键字搜索
@@ -102,7 +106,8 @@ $(function(){
 					pageNum : pageNums
 				},
 				success:function(res){
-					// console.log(res);
+					console.log(res);
+					$(".rank").html(res.pageNum);
 					tr(res);
 					$("num").val(res.rank);
 				//显示页面数据
